@@ -1,0 +1,37 @@
+
+//------------------------------------------------------------------------
+//   Directory Structures
+//-----------------------------------------------------------------------
+<username>     
+     README
+     run.csh
+     /cytosim
+          README.md
+	  Makefile
+	  /bin
+	     play
+	     report
+	     sim
+	  /build
+	  /cym
+	  /doc
+	  /lib
+    /cfg
+        config.cym.tpl
+    /analysis
+    /driver
+         run_size.csh
+    /runs
+    /figures
+
+//-------------------------------------------------------------------------
+//   Checkout and Run Instructions 
+//-------------------------------------------------------------------------
+% mkdir <username>
+% cd <username>
+% git clone https://gitlab.com/f-nedelec/cytosim.git cytosim
+% cd cytosim
+% make
+% cd ..
+% driver/run_size.csh
+

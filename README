@@ -18,16 +18,14 @@
 	  /lib
     /cfg
         config.cym.tpl
-    /analysis
     /driver
          run_size.csh
-    /runs
-    /figures
+    /runs	 
 
 //-------------------------------------------------------------------------
 //   Checkout and Run Instructions 
 //-------------------------------------------------------------------------
-% mkdir <username>
+% git clone git@github.com:arusli1/arusli_cytosim.git <username>
 % cd <username>
 % git clone https://gitlab.com/f-nedelec/cytosim.git cytosim
 % cd cytosim

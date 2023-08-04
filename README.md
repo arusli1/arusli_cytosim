@@ -20,7 +20,9 @@
         config.cym.tpl
     /driver
          run_size.csh
-    /runs	 
+    /runs
+    	/crosslinkers_surface
+   	/asters_rigidity
 
 //-------------------------------------------------------------------------
 //   Checkout and Run Instructions 
